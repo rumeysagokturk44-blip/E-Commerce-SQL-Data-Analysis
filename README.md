@@ -30,6 +30,3 @@ JOIN Urunler u ON sd.UrunID = u.UrunID
 JOIN Kategoriler k ON u.KategoriID = k.KategoriID
 GROUP BY k.KategoriAdi
 ORDER BY Toplam_Ciro DESC;
-![Kategori Analizi](images/kategori_analizi.png.png)
-![Şehir Analizi](images/sehir_analizi.png.jfif)
-![Ürün ve Stok Analizi](images/urun_stok_analizi.png.jfif)
